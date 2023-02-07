@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner-div {
+  width: 50vw;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.6);
+}
